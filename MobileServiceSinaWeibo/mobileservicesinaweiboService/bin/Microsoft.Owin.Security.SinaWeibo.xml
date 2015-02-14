@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Owin.Security.SinaWeibo</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Owin.Security.SinaWeibo.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Owin.Security.SinaWeibo.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Owin.Security.SinaWeibo.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Owin.Security.SinaWeibo.Properties.Resources.Exception_OptionMustBeProvided">
+            <summary>
+              Looks up a localized string similar to The &apos;{0}&apos; option must be provided..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Owin.Security.SinaWeibo.Properties.Resources.Exception_ValidatorHandlerMismatch">
+            <summary>
+              Looks up a localized string similar to An ICertificateValidator cannot be specified at the same time as an HttpMessageHandler unless it is a WebRequestHandler..
+            </summary>
+        </member>
+        <member name="T:Owin.SinaWeiboAccountAuthenticationExtensions">
+            <summary>
+            授权扩展类
+            </summary>
+        </member>
+        <member name="M:Owin.SinaWeiboAccountAuthenticationExtensions.UseSinaWeiboAuthentication(Owin.IAppBuilder,Microsoft.Owin.Security.SinaWeibo.SinaWeiboAccountAuthenticationOptions)">
+            <summary>
+            the redirect url is "yourdomain/signin-sinaWeibo"
+            </summary>
+            <param name="app"></param>
+            <param name="options"></param>
+        </member>
+        <member name="M:Owin.SinaWeiboAccountAuthenticationExtensions.UseSinaWeiboAuthentication(Owin.IAppBuilder,System.String,System.String)">
+            <summary>
+            the redirect url is "yourdomain/signin-sinaWeibo"
+            </summary>
+            <param name="app"></param>
+            <param name="clientId"></param>
+            <param name="clientSecret"></param>
+        </member>
+        <member name="P:Microsoft.Owin.Security.SinaWeibo.SinaWeiboAccountAuthenticationOptions.RequireEmail">
+            <summary>
+            Make sure you got the advanced api authroity to enable this Property, more information please visit:
+            http://open.weibo.com/wiki/%E9%AB%98%E7%BA%A7%E6%8E%A5%E5%8F%A3%E7%94%B3%E8%AF%B7
+            </summary>
+        </member>
+    </members>
+</doc>

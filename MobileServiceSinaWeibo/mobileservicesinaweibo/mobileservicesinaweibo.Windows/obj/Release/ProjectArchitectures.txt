@@ -1,0 +1,1 @@
+C:\MyProjects\AAZDDDeving\AAZDDDeving\MobileService.SinaWeibo\MobileServiceSinaWeibo\mobileservicesinaweibo\mobileservicesinaweibo.Windows\mobileservicesinaweibo.Windows.csproj;neutral
